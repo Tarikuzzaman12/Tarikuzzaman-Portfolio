@@ -4,7 +4,7 @@ import image from "../assets/Zaman.jpg";
 
 const Home = () => {
     return (
-        <section id='home' className="flex flex-col lg:flex-row items-center  lg:justify-between p-8 bg-gray-100 w-11/12 mx-auto">
+        <section id='home' className="flex flex-col lg:flex-row items-center  lg:justify-between p-28 bg-gray-100 w-11/12 mx-auto">
             {/* Left Side Content */}
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left mb-8 lg:mb-0 lg:w-1/2">
                 <h2 className="text-4xl font-bold mb-4">Frontend Developer</h2>

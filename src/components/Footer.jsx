@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto max-w-screen-xl p-6 text-center space-y-2">
         <p className="text-xl font-bold">
           Developer Portfolio of{" "}
-          <span className="text-blue-500 dark:text-blue-400">MD. SAIF ISLAM</span>
+          <span className="text-blue-500 dark:text-blue-400">Tarikuzzaman Tuhin</span>
         </p>
         <p className="text-sm">
           &copy; {new Date().getFullYear()} - All Rights Reserved

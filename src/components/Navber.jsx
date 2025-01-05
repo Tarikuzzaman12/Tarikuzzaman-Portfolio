@@ -100,7 +100,14 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-lg hover:opacity-90 transition-all duration-300">Hire Me</a>
+            <ScrollLink
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="btn bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-lg hover:opacity-90 transition-all duration-300 cursor-pointer"
+        >
+          Hire Me
+        </ScrollLink>
             </div>
         </div>
     );

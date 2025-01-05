@@ -32,7 +32,7 @@ const ProjectCard = () => {
       ],
       technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Firebase', 'Lottie', 'React Awesome Reveal'],
       liveLink: 'https://visa-compass.surge.sh/',
-      githubLink: 'https://github.com/your-username/visa-compass',
+      githubLink: 'https://github.com/Tarikuzzaman12/Visa-Compass',
       image: 'https://via.placeholder.com/300x200', // Replace with your image URL
     },
     {

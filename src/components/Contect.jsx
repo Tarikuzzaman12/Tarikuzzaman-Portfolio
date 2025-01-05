@@ -31,7 +31,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 justify-between gap-10 lg:grid-cols-2">
                 {/* details section */}
                 <div className="m-0 grid w-full grid-cols-1 items-center justify-center p-0">
-                    <h1 className="hidden w-full border-b border-gray-300 text-center text-xl font-semibold capitalize lg:block lg:border-none lg:text-start">
+                    <h1 className=" w-full border-b border-gray-300 text-center text-xl font-semibold capitalize lg:block lg:border-none lg:text-start">
                         Contact me for collaboration
                     </h1>
                     <div className="mt-6 flex w-full flex-col items-start space-y-8 md:mt-8">

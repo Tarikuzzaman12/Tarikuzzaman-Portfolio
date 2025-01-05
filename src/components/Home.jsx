@@ -28,8 +28,7 @@ const Home = () => {
 
                 {/* Download Resume Button */}
                 <a
-                    href="https://docs.google.com/document/d/1L4kXiant87_hr1KltMMPEPa7wiWpNuiGbvJQaDmggn0/edit?usp=drive_link" // File should be placed in the public folder
-                    download="Resume.pdf" // Suggested name for the downloaded file
+                    href="https://drive.google.com/uc?export=download&id=1jF6tLQ76RSvA6hBSNO_XMPdEfIw-KMQt"
                     className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600"
                 >
                     Download Resume

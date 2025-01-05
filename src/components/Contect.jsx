@@ -18,7 +18,7 @@ const Contact = () => {
 
     return (
         <div
-            
+            id='contact'
             className="mb-10 flex flex-col items-center justify-center rounded-xl bg-gray-200 p-5 dark:bg-[#00283A] dark:text-white md:p-10 lg:mb-16 lg:p-16 w-11/12 mx-auto mt-12"
         >
             <div className="pb-5 lg:pb-10">

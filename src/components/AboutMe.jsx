@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <section className="p-8 bg-gray-100 text-center mt-10 mb-10 w-11/12 mx-auto">
+        <section id='aboutme' className="p-8 bg-gray-100 text-center mt-10 mb-10 w-11/12 mx-auto">
             <h2 className="text-4xl font-bold mb-4">Hi, I’m Tarikuzzaman</h2>
             <p className="text-lg mb-6">
                 I’m a passionate Frontend Web Developer with a strong focus on creating interactive and responsive web applications. I specialize in technologies like HTML, CSS, JavaScript, React, and Tailwind CSS. I’m also proficient in Git and GitHub for version control.

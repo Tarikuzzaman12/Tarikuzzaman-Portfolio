@@ -13,7 +13,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="p-8 bg-gradient-to-b from-gray-50 to-gray-200 w-11/12 mx-auto">
+    <section id='skills' className="p-8 bg-gradient-to-b from-gray-50 to-gray-200 w-11/12 mx-auto">
       <h1 className="text-4xl font-extrabold text-center mb-8 text-gray-800">My Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {skills.map((skill) => (

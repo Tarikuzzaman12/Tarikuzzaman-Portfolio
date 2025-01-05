@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import ProjectCard from './components/ProjectCard'
 import Contect from '../src/components/Contect'
+import Footer from './components/Footer'
 
 function App() {
  
@@ -14,7 +15,9 @@ function App() {
   return (
     <>
     {/* Navbar */}
-     <Navber></Navber>
+    <div className='w-11/12 mx-auto'>
+    <Navber></Navber>
+    </div>
 
      {/* Home section */}
     <Home></Home>
@@ -23,6 +26,7 @@ function App() {
     <Skills></Skills>
      <ProjectCard></ProjectCard>
      <Contect></Contect>
+     <Footer></Footer>
       
      
     </>

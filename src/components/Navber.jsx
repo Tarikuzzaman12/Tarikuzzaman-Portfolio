@@ -1,18 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link as ScrollLink } from 'react-scroll'; // import react-scroll Link
 
 const Navber = () => {
+    const [activeLink, setActiveLink] = useState('');
+
     const links = (
         <>
-          <li><a className="uppercase">Home</a></li>
-          <li><a className="uppercase">About me</a></li>
-          <li><a className="uppercase">Skills</a></li>
-          <li><a className="uppercase">Projects</a></li>
-          <li><a className="uppercase">Contact</a></li>
+          <li>
+            <ScrollLink
+              to="home" 
+              smooth={true}
+              duration={500}
+              className={`uppercase ${activeLink === 'home' ? 'text-blue-600' : ''}`}
+              onClick={() => setActiveLink('home')}
+            >
+              Home
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="aboutme" 
+              smooth={true}
+              duration={500}
+              className={`uppercase ${activeLink === 'aboutme' ? 'text-blue-600' : ''}`}
+              onClick={() => setActiveLink('aboutme')}
+            >
+              About me
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="skills" 
+              smooth={true}
+              duration={500}
+              className={`uppercase ${activeLink === 'skills' ? 'text-blue-600' : ''}`}
+              onClick={() => setActiveLink('skills')}
+            >
+              Skills
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="projects" 
+              smooth={true}
+              duration={500}
+              className={`uppercase ${activeLink === 'projects' ? 'text-blue-600' : ''}`}
+              onClick={() => setActiveLink('projects')}
+            >
+              Projects
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="contact" 
+              smooth={true}
+              duration={500}
+              className={`uppercase ${activeLink === 'contact' ? 'text-blue-600' : ''}`}
+              onClick={() => setActiveLink('contact')}
+            >
+              Contact
+            </ScrollLink>
+          </li>
         </>
-      );
-      
+    );
+    
     return (
-        <div className="navbar bg-base-100 w-11/12 mx-auto">
+        <div className="navbar bg-gray-400 fixed z-30 mb-10 w-11/12 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,13 +96,11 @@ const Navber = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    {
-                        links
-                    }
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end">
-          <a className="btn bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-lg hover:opacity-90 transition-all duration-300">Hire Me</a>
+                <a className="btn bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold px-6 py-2 rounded-lg shadow-lg hover:opacity-90 transition-all duration-300">Hire Me</a>
             </div>
         </div>
     );

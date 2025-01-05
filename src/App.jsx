@@ -6,6 +6,7 @@ import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import ProjectCard from './components/ProjectCard'
+import Contect from '../src/components/Contect'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
     <AboutMe></AboutMe>
     <Skills></Skills>
      <ProjectCard></ProjectCard>
+     <Contect></Contect>
       
      
     </>

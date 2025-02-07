@@ -28,7 +28,7 @@ const Home = () => {
 
                 {/* Download Resume Button */}
                 <a
-                    href="https://drive.google.com/uc?export=download&id=1jF6tLQ76RSvA6hBSNO_XMPdEfIw-KMQt"
+                    href="https://docs.google.com/document/d/14oCzhk1Ca4_1tzyDhP2bsi9lkwIxHOlOe0c8m4Nolc8/export?format=pdf"
                     className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600"
                 >
                     Download Resume
